@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend-deployment
-          image: amwau/backendfolder:v2.0.2
+          image: protus/backend:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 5000

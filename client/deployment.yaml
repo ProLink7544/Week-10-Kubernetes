@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: client
-        image: amwau/clientfolder:v2.0.2
+        image: protus/client:1.0.0
         ports:
         - containerPort: 3000
